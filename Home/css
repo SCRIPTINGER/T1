@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://i.ibb.co/Fbkk9Ld/photo-2024-12-24-15-19-06.jpg'); /* Замените на путь к вашему изображению */
+  background-size: cover; /* Заполняет всю область фона */
+  background-position: center; /* Центрирует изображение */
+  color: white; /* Цвет текста */
+}
+
+.menu-container {
+  background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный черный фон для меню */
+  padding: 10px;
+}
+
+.menu ul {
+  list-style-type: none; /* Убирает маркеры списка */
+  padding: 0;
+}
+
+.menu li {
+  display: inline; /* Выстраивает элементы в строку */
+  margin-right: 20px; /* Отступ между элементами меню */
+}
+
+.menu a {
+  color: white; /* Цвет ссылок */
+  text-decoration: none; /* Убирает подчеркивание */
+  font-size: 18px; /* Размер шрифта */
+}
+
+.menu a:hover {
+  text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+footer {
+  text-align: center; /* Центрирует текст в подвале */
+  margin-top: 20px; /* Отступ сверху */
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.menu-container {
+  text-align: center;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  margin: 10px 0;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.menu a:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+}
